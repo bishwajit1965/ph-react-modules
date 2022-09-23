@@ -1,0 +1,11 @@
+.header-area {
+  min-width: 100px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.header-area h1 {
+  margin: 0;
+  padding: 0;
+}

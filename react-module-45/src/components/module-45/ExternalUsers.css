@@ -1,0 +1,26 @@
+.external-users-container {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 22.3%;
+  float: left;
+  gap: 1rem;
+  border: 2px solid tomato;
+  padding: 1rem 0.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.external-users-container h4,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.5rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .external-users-container {
+    width: 93.5%;
+  }
+}

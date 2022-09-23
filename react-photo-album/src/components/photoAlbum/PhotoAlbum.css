@@ -1,0 +1,8 @@
+.photo-album {
+  display: grid;
+  grid-template-columns: repeat(8 1fr);
+  justify-content: center;
+  margin: 0.5rem 0.5rem;
+  float: left;
+  min-width: 150px;
+}
