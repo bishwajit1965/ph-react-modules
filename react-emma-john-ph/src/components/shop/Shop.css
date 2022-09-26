@@ -1,0 +1,67 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.cart-container {
+  background-color: #ffe0b3;
+  padding: 0.8rem;
+}
+.cart-container h3 {
+  font-family: "Lato";
+  font-style: normal;
+  color: #1c2b35;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.cart-details {
+  margin-bottom: 2rem;
+}
+.cart-details p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #2a414f;
+  margin-bottom: 1.5rem;
+}
+.clear-cart {
+  background-color: #ff3030;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.clear-cart a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #fff;
+  text-decoration: none;
+}
+.review-order {
+  background-color: #ff9900;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.review-order a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #fff;
+  text-decoration: none;
+}
