@@ -10,6 +10,8 @@
 .cart-container {
   background-color: #ffe0b3;
   padding: 0.8rem;
+  position: sticky;
+  margin-top: 0;
 }
 .cart-container h3 {
   font-family: "Lato";
