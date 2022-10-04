@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.container ul {
+  list-style: none;
+}
+.container ul li {
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  min-width: 4rem;
+  min-height: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #121db4c5;
+  box-shadow: 0rem 0.3rem 0.5rem #ddd;
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.container ul li:hover {
+  font-weight: 800;
+  background-color: #4b55e6c5;
+}
+.container ul li a:hover {
+  color: red;
+  font-size: 1rem;
+}
