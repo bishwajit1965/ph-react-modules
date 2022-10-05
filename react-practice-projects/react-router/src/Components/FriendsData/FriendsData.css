@@ -1,0 +1,22 @@
+.friends-detail-data {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 3px 5px 8px #ddd;
+  padding: 0.5rem;
+  min-height: 230px;
+}
+.friends-detail-data button {
+  background-color: #0e87ebee;
+  border: none;
+  /* padding: 0.3rem 0.5rem; */
+  /* width: 100%; */
+  border-radius: 0.3rem;
+  margin-top: 0.8rem;
+  display: flex;
+}
+.friends-detail-data a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  /* display: block; */
+}

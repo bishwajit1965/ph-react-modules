@@ -1,0 +1,17 @@
+.nav {
+  background-color: #ddd;
+  padding: 0.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.nav a:hover {
+  background-color: #ffffffc5;
+}
+
+.active {
+  background-color: aquamarine;
+}
